@@ -1,0 +1,29 @@
+{
+  "name": "impact-level-to-tiled",
+  "version": "0.1.0",
+  "description": "Convert an ImpactJS level to Tiled JSON format.",
+  "main": "convertLevel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drhayes/impact-level-to-tiled.git"
+  },
+  "keywords": [
+    "impactjs",
+    "tiled",
+    "tilemap",
+    "tilemaps"
+  ],
+  "author": "David Hayes <drhayes@gmail.com> (http://drhayes.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drhayes/impact-level-to-tiled/issues"
+  },
+  "homepage": "https://github.com/drhayes/impact-level-to-tiled",
+  "dependencies": {
+    "pngjs": "^0.4.0",
+    "bluebird": "^2.9.24"
+  }
+}
