@@ -125,7 +125,9 @@ Promise.all(promises).then(function() {
   };
   layer.objects = level.entities.map(function(e) {
     var o = {
-      name: e.type,
+      name: e.type.replace(/Entity(\w)(\w+)/, function(m, m1, m2) {
+        return m1.toLowerCase() + m2;
+      }),
       x: e.x,
       y: e.y,
       visible: true,
